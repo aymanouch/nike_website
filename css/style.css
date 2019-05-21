@@ -5,6 +5,7 @@ body{
     margin:0;
     padding: 0;
     font-family: 'Quicksand', sans-serif;
+    width: 100%;
 }
 .container{
     width: 90%;
@@ -23,6 +24,7 @@ div.col{
 div.one nav{
     display: flex;
     align-items: center;
+    width: 100%;
 }
 div.one nav #logo{
     width: 25%;
@@ -233,11 +235,22 @@ div.tow .right-box .bott-box .cont-so .social:nth-child(3) span{
     }
 
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 768px) {
     div.col{
         width: 100%;
         float: none;
     }
+    div.one nav.menu ul{
+        padding: 0;
+
+    }
+    div.one nav.menu ul li{
+    margin-right: 0; 
+    margin-left: 0;
+    }
+    div.one nav.menu ul li:last-child{ 
+        margin-left: 17%;
+        }
     div.one div.product {
         width: 95%;
         height: 245px;

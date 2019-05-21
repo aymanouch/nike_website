@@ -49,8 +49,9 @@ $(function () {
           scrollTop : $('.tow').offset().top
       }, 550);
   } 
-
-
-
     });
+    //4 media query small screen 
+// $(window).on('resize', function () {
+//     $('body').css('width', $(window).width() + 'px');
+//    });
 });
